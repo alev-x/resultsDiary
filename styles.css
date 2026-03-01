@@ -1,0 +1,40 @@
+.hide {
+    display: none;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.tabs__button {
+    padding-inline: 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #92A0AD;
+    border-radius: 4px;
+}
+
+.tabs__button + .tabs__button {
+    margin-left: 15px;
+}
+
+.tabs__button.active {
+    background-color: #2E80B6;
+}
+
+.tabs__item {
+    animation: fade 1s;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-lin    k {
+    text-decoration: none;
+}
