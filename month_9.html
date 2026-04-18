@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Results Diary</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <h1>апрель 2026</h1>
+    <div class="container">
+        <div class="tabs__naw">
+            <button class="tabs__button active" type="button">Общий</button>
+            <button class="tabs__button" type="button">Японский</button>
+            <button class="tabs__button" type="button">Английский</button>
+            <button class="tabs__button" type="button">Программирование</button>
+            <button class="tabs__button" type="button">Работа</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tabs__item">
+            <h4 class="tabs__item-title">Общий</h4>
+            <div class="tabs__desc">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>П/Н</th>
+                            <th>Дата</th>
+                            <th>Что было сделано</th>
+                            <th>Затраченое время (часы минуты)</th>
+                            <th>Затраченое время (минуты)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.1</td>
+                            <td>02.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 25 минут</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>2.1</td>
+                            <td>03.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 40 минут</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>2.2</td>
+                            <td>03.04.26</td>
+                            <td>Английский язык</td>
+                            <td>00 часов 40 минут</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>2.3</td>
+                            <td>03.04.26</td>
+                            <td>Работа</td>
+                            <td>01 часов 44 минут</td>
+                            <td>104</td>
+                        </tr>
+                        <tr>
+                            <td>3.1</td>
+                            <td>04.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 30 минут</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>4.1</td>
+                            <td>05.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 01 минут</td>
+                            <td>61</td>
+                        </tr>
+                        <tr>
+                            <td>5.1</td>
+                            <td>06.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 35 минут</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <td>6.1</td>
+                            <td>07.04.26</td>
+                            <td>Японский язык</td>
+                            <td>02 часов 46 минут</td>
+                            <td>166</td>
+                        </tr>
+                        <tr>
+                            <td>6.2</td>
+                            <td>07.04.26</td>
+                            <td>Работа</td>
+                            <td>01 часов 04 минут</td>
+                            <td>64</td>
+                        </tr>
+                        <tr>
+                            <td>7.1</td>
+                            <td>08.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 50 минут</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>8.1</td>
+                            <td>09.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 32 минут</td>
+                            <td>92</td>
+                        </tr>
+                        <tr>
+                            <td>9.1</td>
+                            <td>10.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 16 минут</td>
+                            <td>76</td>
+                        </tr>
+                        <tr>
+                            <td>9.2</td>
+                            <td>10.04.26</td>
+                            <td>Английский язык</td>
+                            <td>01 часов 36 минут</td>
+                            <td>96</td>
+                        </tr>
+                        <tr>
+                            <td>9.3</td>
+                            <td>10.04.26</td>
+                            <td>Работа</td>
+                            <td>01 часов 24 минут</td>
+                            <td>84</td>
+                        </tr>
+                        <tr>
+                            <td>10.1</td>
+                            <td>11.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 14 минут</td>
+                            <td>74</td>
+                        </tr>
+                        <tr>
+                            <td>11.1</td>
+                            <td>12.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 30 минут</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>12.1</td>
+                            <td>13.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 18 минут</td>
+                            <td>78</td>
+                        </tr>
+                        <tr>
+                            <td>13.1</td>
+                            <td>14.04.26</td>
+                            <td>Японский язык</td>
+                            <td>02 часов 16 минут</td>
+                            <td>136</td>
+                        </tr>
+                        <tr>
+                            <td>14.1</td>
+                            <td>15.04.26</td>
+                            <td>Японский язык</td>
+                            <td>02 часов 20 минут</td>
+                            <td>140</td>
+                        </tr>
+                        <tr>
+                            <td>15.1</td>
+                            <td>16.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 00 минут</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>16.1</td>
+                            <td>17.04.26</td>
+                            <td>Японский язык</td>
+                            <td>03 часов 25 минут</td>
+                            <td>205</td>
+                        </tr>
+                        <tr>
+                            <td>16.2</td>
+                            <td>17.04.26</td>
+                            <td>Английский язык</td>
+                            <td>00 часов 42 минут</td>
+                            <td>42</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tabs__item">
+            <h4 class="tabs__item-title">Японский язык</h4>
+            <div class="tabs__desc">
+                <table>
+                    <caption>Журнал студента</caption>
+                    <thead>
+                        <tr>
+                            <th>П/Н</th>
+                            <th>Дата</th>
+                            <th>Что было сделано</th>
+                            <th>Затраченое время (часы минуты)</th>
+                            <th>Затраченое время (минуты)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <tr>
+                            <td>1.1</td>
+                            <td>02.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 25 минут</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>2.1</td>
+                            <td>03.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 40 минут</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>3.1</td>
+                            <td>04.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 30 минут</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>4.1</td>
+                            <td>05.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 01 минут</td>
+                            <td>61</td>
+                        </tr>
+                        <tr>
+                            <td>5.1</td>
+                            <td>06.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 35 минут</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <td>6.1</td>
+                            <td>07.04.26</td>
+                            <td>Японский язык</td>
+                            <td>02 часов 46 минут</td>
+                            <td>166</td>
+                        </tr>
+                        <tr>
+                            <td>7.1</td>
+                            <td>08.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 50 минут</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>8.1</td>
+                            <td>09.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 32 минут</td>
+                            <td>92</td>
+                        </tr>
+                        <tr>
+                            <td>9.1</td>
+                            <td>10.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 16 минут</td>
+                            <td>76</td>
+                        </tr>
+                        <tr>
+                            <td>10.1</td>
+                            <td>11.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 14 минут</td>
+                            <td>74</td>
+                        </tr>
+                        <tr>
+                            <td>11.1</td>
+                            <td>12.04.26</td>
+                            <td>Японский язык</td>
+                            <td>00 часов 30 минут</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>12.1</td>
+                            <td>13.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 18 минут</td>
+                            <td>78</td>
+                        </tr>
+                        <tr>
+                            <td>13.1</td>
+                            <td>14.04.26</td>
+                            <td>Японский язык</td>
+                            <td>02 часов 16 минут</td>
+                            <td>136</td>
+                        </tr>
+                        <tr>
+                            <td>14.1</td>
+                            <td>15.04.26</td>
+                            <td>Японский язык</td>
+                            <td>02 часов 20 минут</td>
+                            <td>140</td>
+                        </tr>
+                        <tr>
+                            <td>15.1</td>
+                            <td>16.04.26</td>
+                            <td>Японский язык</td>
+                            <td>01 часов 00 минут</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>16.1</td>
+                            <td>17.04.26</td>
+                            <td>Японский язык</td>
+                            <td>03 часов 25 минут</td>
+                            <td>205</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tabs__item">
+            <h4 class="tabs__item-title">Английский язык</h4>
+            <div class="tabs__desc">
+                <table>
+                    <caption>Журнал студента</caption>
+                    <thead>
+                        <tr>
+                            <th>П/Н</th>
+                            <th>Дата</th>
+                            <th>Что было сделано</th>
+                            <th>Затраченое время (часы минуты)</th>
+                            <th>Затраченое время (минуты)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2.2</td>
+                            <td>03.04.26</td>
+                            <td>Английский язык</td>
+                            <td>00 часов 40 минут</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>9.2</td>
+                            <td>10.04.26</td>
+                            <td>Английский язык</td>
+                            <td>01 часов 36 минут</td>
+                            <td>96</td>
+                        </tr>
+                        <tr>
+                            <td>16.2</td>
+                            <td>17.04.26</td>
+                            <td>Английский язык</td>
+                            <td>00 часов 42 минут</td>
+                            <td>42</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tabs__item">
+            <h4 class="tabs__item-title">Программирование</h4>
+            <div class="tabs__desc">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>П/Н</th>
+                            <th>Дата</th>
+                            <th>Что было сделано</th>
+                            <th>Затраченое время (часы минуты)</th>
+                            <th>Затраченое время (минуты)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tabs__item">
+            <h4 class="tabs__item-title">Работа</h4>
+            <div class="tabs__desc">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>П/Н</th>
+                            <th>Дата</th>
+                            <th>Что было сделано</th>
+                            <th>Затраченое время (часы минуты)</th>
+                            <th>Затраченое время (минуты)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2.3</td>
+                            <td>03.04.26</td>
+                            <td>Работа</td>
+                            <td>01 часов 44 минут</td>
+                            <td>104</td>
+                        </tr>
+                        <tr>
+                            <td>6.2</td>
+                            <td>07.04.26</td>
+                            <td>Работа</td>
+                            <td>01 часов 04 минут</td>
+                            <td>64</td>
+                        </tr>
+                        <tr>
+                            <td>9.3</td>
+                            <td>10.04.26</td>
+                            <td>Работа</td>
+                            <td>01 часов 24 минут</td>
+                            <td>84</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                            <td>*</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <canvas id="timeChart"></canvas>
+    </div>
+    <div class="container">
+        <nav class="nav-links">
+            <a class="nav-link" href="./month_8.html">март 2026</a>
+            <a class="nav-link" href="./index.html">Оглавление</a>
+            <a class="nav-link" href="./month_10.html">май 2026</a>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
